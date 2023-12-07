@@ -1,0 +1,1 @@
+Ho continuato l'esercizio di Boolean html-css-spotifyweb, implementando le altre pagine della navbar, cercando di usare diversi effetti di hover e diversi stili. 

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Arianna Costanzo">
+    <meta name="description" content="Spotify">
+    <title>Spotify</title>
+    <!-- favicon -->
+    <link rel="icon" href="img/favicon.ico">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css' integrity='sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==' crossorigin='anonymous'>
+    <!-- stile -->
+    <link rel="stylesheet" href="stile/style.css">
+    <link rel="stylesheet" href="stile/nuove_uscite.css">
+    <link rel="stylesheet" href="stile/responsive.css">
+    
+</head>
+<body>
+    <!-- main division -->
+    <div class="main-division">
+
+        <!-- body content -->
+        <div class="body-content">
+          
+            <!-- sidebar -->
+             <div class="sidebar">
+                 <div class="sidebar-content">
+                    <div class="sidebar-header">
+                        <img class="d-sm-none" src="img/logo-small.svg" alt="logo spotify" id="spotify-logo">
+                        <img class="d-none d-sm-block" id="spotify-logo-large" src="img/logo.svg" alt="spotify-logo">
+                    </div>
+
+                    <!-- sidebar nav -->
+                    <ul class="sidebar-nav">
+                        <li class="selected-category-side">
+                            <img src="img/home.svg" alt="home icon">
+                            <span class="d-none d-sm-inline">Home</span>
+                        </li>
+                        <li>
+                            <img src="img/search.svg" alt="search icon">
+                            <span class="d-none d-sm-inline">Cerca</span>
+                        </li>
+                        <li>
+                            <img src="img/libreria.svg" alt="librery icon">
+                            <span class="d-none d-sm-inline">La tua libreria</span>
+                        </li>
+                    </ul>
+
+                    <!-- playlist -->
+                    <div class="playlists d-none d-sm-block">
+                        <h3>Playlist</h3>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-square-plus"></i>
+                                Crea Playlist
+                            </li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- sidebar footer -->
+                <div class="sidebar-footer">
+                    <div class="install">
+                        <i class="fa-regular fa-circle-down"></i>
+                        <span class="d-none d-sm-inline">Installa app</span>
+
+                    </div>
+                    <div class="separator d-none d-sm-block"></div>
+                    <div class="user">
+                        <div class="profile-pic">
+                            <img src="img/profile.svg" alt="profile picture">
+                        </div>
+                        <span class="d-none d-sm-inline">Arianna Costanzo</span>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- fine sidebar -->
+
+
+            <!-- main content container -->
+            <div class="main-content-container">
+
+                <!-- header -->
+                <header>
+                    <span class="btn"><a href="#">effettua l'upgrade</a></span>
+                </header>
+                <!-- fine header -->
+
+                <!-- main -->
+                <main class="container">
+
+                    <!-- main navbar -->
+                    <ul class="main-navbar">
+                        <li><a href="index.html">in evidenza</a></li>
+                        <li><a href="podcast.html">podcast</a></li>
+                        <li><a href="classifiche.html">classifiche</a></li>
+                        <li><a href="generi_mood.html">generi e mood</a></li>
+                        <li class="active"><a href="#">nuove uscite</a></li>
+                        <li><a href="scopri.html">scopri</a></li>
+                    </ul>
+
+                    <section>
+                        <h2>Le migliori nuove uscite</h2>
+                        <div class="row">
+                            <div class="nuove-uscite-col">
+                                <div class="space">
+                                    <div class="card">
+                                        <figure class="main-img-container">
+                                            <img src="img/moth.jpg" alt="linkin park">
+                                        </figure>
+                                        <div class="card">
+                                            <p>Moth To A Flame</p>
+                                            <p>The Weeknd</p>
+                                        </div>
+                                        <div class="play-btn-green">
+                                            <i class="fa-solid fa-circle-play"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nuove-uscite-col">
+                                <div class="space">
+                                    <div class="card">
+                                        <figure class="main-img-container">
+                                            <img src="img/new_music.png" alt="linkin park">
+                                        </figure>
+                                        <div class="card">
+                                            <p>New Music Friday</p>
+                                            <p>Nuovi Brani Ogni Venerdì</p>
+                                        </div>
+                                        <div class="play-btn-green">
+                                            <i class="fa-solid fa-circle-play"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section>
+                        <h2>Nuove Uscite Per Te</h2>
+                        <div class="row">
+                            <div class="nuove-uscite-col">
+                                <div class="space">
+                                    <div class="card">
+                                        <figure class="main-img-container">
+                                            <img src="img/rancore.jpeg" alt="linkin park">
+                                        </figure>
+                                        <div class="card">
+                                            <p>Freccia</p>
+                                            <p>Rancore</p>
+                                        </div>
+                                        <div class="play-btn-green">
+                                            <i class="fa-solid fa-circle-play"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nuove-uscite-col">
+                                <div class="space">
+                                    <div class="card">
+                                        <figure class="main-img-container">
+                                            <img src="img/tdg.jpg" alt="linkin park">
+                                        </figure>
+                                        <div class="card">
+                                            <p>Gone Forever</p>
+                                            <p>Three Days Grace</p>
+                                        </div>
+                                        <div class="play-btn-green">
+                                            <i class="fa-solid fa-circle-play"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nuove-uscite-col">
+                                <div class="space">
+                                    <div class="card">
+                                        <figure class="main-img-container">
+                                            <img src="img/30.jpg" alt="linkin park">
+                                        </figure>
+                                        <div class="card">
+                                            <p>ATTACK</p>
+                                            <p>30 Seconds To Mars</p>
+                                        </div>
+                                        <div class="play-btn-green">
+                                            <i class="fa-solid fa-circle-play"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nuove-uscite-col">
+                                <div class="space">
+                                    <div class="card">
+                                        <figure class="main-img-container">
+                                            <img src="img/iamx.jpg" alt="linkin park">
+                                        </figure>
+                                        <div class="card">
+                                            <p>I Am Terrified</p>
+                                            <p>Iamx</p>
+                                        </div>
+                                        <div class="play-btn-green">
+                                            <i class="fa-solid fa-circle-play"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nuove-uscite-col">
+                                <div class="space">
+                                    <div class="card">
+                                        <figure class="main-img-container">
+                                            <img src="img/ratatat.jpg" alt="linkin park">
+                                        </figure>
+                                        <div class="card">
+                                            <p>Gettysburg</p>
+                                            <p>Ratatat</p>
+                                        </div>
+                                        <div class="play-btn-green">
+                                            <i class="fa-solid fa-circle-play"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nuove-uscite-col">
+                                <div class="space">
+                                    <div class="card">
+                                        <figure class="main-img-container">
+                                            <img src="img/imagine2.jpg" alt="linkin park">
+                                        </figure>
+                                        <div class="card">
+                                            <p>Follow You</p>
+                                            <p>Imagine Dragons</p>
+                                        </div>
+                                        <div class="play-btn-green">
+                                            <i class="fa-solid fa-circle-play"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                </main>
+                <!-- fine main -->
+
+            </div> 
+            <!-- fine main content container -->
+        </div>
+
+        <!-- footer -->
+        <footer>
+
+            <!-- footer left -->
+            <div class="player-left">
+                <div class="player-img">
+                    <img src="img/ratatat.jpg" alt="ratatat album ">
+                </div>
+                <div class="player-song">
+                    <p>Ratatat</p>
+                    <p>Desert Eagle</p>
+                </div>
+                <div class="player-left-icons d-md-flex">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-folder"></i>
+                </div>
+            </div>
+
+            <!-- footer central -->
+            <div class="player-central">
+                <div class="player-top">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="fa-regular fa-circle-play"></i>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-rotate-right"></i>
+                </div>
+                <div class="player-bottom">
+                    <span>0:25</span>
+                    <div class="player-time"></div>
+                    <span>4:35</span>
+                </div>
+            </div>
+
+            <!-- footer right -->
+            <div class="player-right">
+                <i class="fa-solid fa-list"></i>
+                <i class="fa-solid fa-display"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <div class="player-time player-volume"></div>
+            </div>
+        </footer>
+        <!-- fine footer -->
+
+    </div>
+    <!-- fine main division -->
+</body>
+</html>

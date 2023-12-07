@@ -1,0 +1,52 @@
+.nuove-uscite-col {
+    display: flex;
+    padding:  0.5rem;
+    flex-basis: 50%;
+}
+
+.space {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.play-btn-green {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    font-size: 3rem;
+    color: rgb(31, 177, 31);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    opacity: 0;
+    transition: all ease-in .3s;
+}
+
+
+.space:hover {
+    background-color: rgba(100, 99, 99, 0.158);
+}
+
+.space:hover .play-btn-green {
+    opacity: 1;
+    transform: translateY(-10px);
+}
+
+.play-btn-green i {
+    text-shadow: 0 0 2px black;
+}
+
+.play-btn-green i:hover {
+    scale: 1.1;
+}
+
+.img-circle-container ~ .play-btn-green {
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}

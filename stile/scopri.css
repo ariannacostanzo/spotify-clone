@@ -1,0 +1,97 @@
+
+
+.scopri-col {
+    text-align: left;
+    border-radius: 10px;
+    flex-basis: calc(50% - 1rem);
+    position: relative;
+    overflow: hidden;
+    margin: .5rem;
+    padding:  0.5rem;
+    display: flex;
+    flex-direction: column;  
+    cursor: pointer; 
+    text-shadow: 1px 1px 1px black;
+    transition: scale ease .3s;
+}
+
+.scopri-col:hover {
+    scale: 1.05;
+}
+
+.scopri-col h2 {
+    height: 50px;
+}
+
+/* cambio colore */
+
+.scopri-col:nth-of-type(1) {
+    background-color: pink;
+}
+.scopri-col:nth-of-type(2) {
+    background-color: blue;
+}
+.scopri-col:nth-of-type(3) {
+    background-color: green;
+}
+.scopri-col:nth-of-type(4) {
+    background-color: palevioletred;
+}
+.scopri-col:nth-of-type(5) {
+    background-color: orangered;
+}
+.scopri-col:nth-of-type(6) {
+    background-color: cadetblue;
+}
+.scopri-col:nth-of-type(7) {
+    background-color: yellowgreen;
+}
+.scopri-col:nth-of-type(8) {
+    background-color: purple;
+}
+.scopri-col:nth-of-type(9) {
+    background-color: brown;
+}
+.scopri-col:nth-of-type(10) {
+    background-color: pink;
+}
+.scopri-col:nth-of-type(11) {
+    background-color: blue;
+}
+.scopri-col:nth-of-type(12) {
+    background-color: green;
+}
+.scopri-col:nth-of-type(13) {
+    background-color: palevioletred;
+}
+.scopri-col:nth-of-type(14) {
+    background-color: orangered;
+}
+.scopri-col:nth-of-type(15) {
+    background-color: cadetblue;
+}
+.scopri-col:nth-of-type(16) {
+    background-color: yellowgreen;
+}
+.scopri-col:nth-of-type(17) {
+    background-color: purple;
+}
+.scopri-col:nth-of-type(18) {
+    background-color: brown;
+}
+
+
+figure {
+    margin: 0 auto;
+    width: 60%;
+    position: relative;
+    margin-top: 1rem;
+    right: -29%;
+    bottom: -15%;
+    
+}
+
+.weird-img {
+    transform: rotate(20deg);
+    filter: drop-shadow(0px 0px 1px black);
+}

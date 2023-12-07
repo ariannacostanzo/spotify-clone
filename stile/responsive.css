@@ -1,0 +1,272 @@
+@media screen and (min-width:623px) {
+
+    /*-------------- 
+        sidebar 
+     --------------*/
+
+    /* la sidebar diventa più grande */
+    .sidebar {
+        padding: 1rem;
+        width: 200px;
+    }
+  
+    .d-sm-none {
+        display: none;
+    }
+ 
+    .d-sm-block {
+        display: block;
+    }
+
+    .d-sm-inline {
+        display: inline;
+    }
+
+    
+    /* nel footer il testo si allinea a sinistra */
+
+
+    .sidebar-footer {
+        text-align: left; 
+    }
+
+    .profile-pic {
+        margin-top: 0;
+    }
+
+    /* appare la striscia verde */
+
+    .selected-category-side::before {
+        content: '';
+        background-color: #6fa22a;
+        height: 100%;
+        position: absolute;
+        left: -1rem;
+        top: 0;
+        width: 2px;
+        border-radius: 2px;
+    }
+
+    
+}
+
+@media screen and (min-width:783px) {
+
+    /* gli album si dispongo in 4 per riga */
+
+    .col {
+        flex-basis: 25%;
+    }
+
+    /* -------------ALTRE PAGINE-----------------------*/
+
+    /* podcast */
+
+    .podcast-col {
+        flex-basis: calc(100% / 3);
+    }
+
+    /* classifiche */
+
+    .classifiche-col {
+        flex-basis: calc(100% / 3);
+    }
+
+    /* generi e mood */
+
+    .generi-mood-col {
+        flex-basis: calc(100% / 3);
+    }
+
+    /* nuove uscite */
+
+    .nuove-uscite-col {
+        flex-basis: calc(100% / 3);
+    }
+
+    /* scopri */
+
+    .scopri-col {
+        flex-basis: calc(100% / 3 - 1rem);
+    }
+
+    /* -------------FINE ALTRE PAGINE-----------------------*/
+
+    /* l'immagine del footer diventa più grande */
+
+    .player-img {
+        width: 50px;
+    }
+
+    /* il font aumenta */
+
+    footer {
+        font-size: .9rem;
+    }
+
+    .player-song p:nth-of-type(2) {
+        font-size: .7rem;
+    }
+
+    .d-md-flex {
+        display: flex;
+    }
+    
+    /* nel player centrale c'è più gap */
+    .player-top {
+        gap: 30px;
+    }
+
+    .player-top .fa-circle-play {
+        font-size: 1.7rem;
+    }
+
+    
+}
+
+
+@media screen and (min-width:992px) {
+    /* ------------- ALTRE PAGINE-----------------------*/
+
+    .podcast-col {
+        flex-basis: calc(100% / 4);
+    }
+
+    .scopri-col {
+        flex-basis: calc(100% / 4 - 1rem);
+    }
+
+    .nuove-uscite-col {
+        flex-basis: calc(100% / 4);
+    }
+
+    .generi-mood-col {
+        flex-basis: calc(100% / 4);
+    }
+
+    .classifiche-col {
+        flex-basis: calc(100% / 4);
+    }
+
+    /* -------------FINE ALTRE PAGINE-----------------------*/
+}
+
+
+
+
+@media screen and (min-width:1250px) {
+
+    /* gli album si dispongo in 6 per riga */
+
+    .col {
+        flex-basis: calc(100% / 6);
+    }
+
+    /* -------------ALTRE PAGINE-----------------------*/
+
+    /* podcast */
+
+    .podcast-col {
+        flex-basis: calc(100% / 5);
+    }
+
+    /* nuove uscite */
+
+    .nuove-uscite-col {
+        flex-basis: calc(100% / 5);
+    }
+
+    .classifiche-col {
+        flex-basis: calc(100% / 5);
+    }
+
+    .generi-mood-col {
+        flex-basis: calc(100% / 5);
+    }
+
+    /* scopri */
+
+    .scopri-col {
+        flex-basis: calc(100% / 5 - 1rem);
+    }
+
+    /* -------------FINE ALTRE PAGINE-----------------------*/
+
+    /* l'immagine del footer diventa più grande */
+
+    .player-img {
+        width: 60px;
+    }
+
+    /* il font aumenta */
+
+    footer {
+        font-size: 1rem;
+    }
+
+    .player-song p:nth-of-type(2) {
+        font-size: .8rem;
+    }
+
+    /* c'è un po' di spaziamento tra le icone e la canzone */
+
+    .player-left-icons {
+        margin-left: 2rem;
+    }
+
+    /* nel player centrale c'è più gap */
+
+    .player-top {
+        gap: 30px;
+    }
+
+    /* nel player centrale le icone sono più grandi */
+
+    .player-top .fa-circle-play {
+        font-size: 1.9rem;
+    }
+
+    .player-top .fa-circle-play:hover {
+        scale: 1.2;
+    }
+    
+    .player-top .fa-circle-play:active {
+        scale: 1.1;
+    }
+    
+
+
+    /* c'è più spaziamento tra le icone di destra */
+
+    .player-right {
+        gap: 20px;
+    }
+    
+}
+
+@media screen and (min-width:1500px) {
+    /* ------------- ALTRE PAGINE-----------------------*/
+    .podcast-col {
+        flex-basis: calc(100% / 6);
+    }
+
+    /* nuove uscite */
+
+    .nuove-uscite-col {
+        flex-basis: calc(100% / 7);
+    }
+
+    .generi-mood-col {
+        flex-basis: calc(100% / 7);
+    }
+
+    .scopri-col {
+        flex-basis: calc(100% / 6 - 1rem);
+    }
+
+    .classifiche-col {
+        flex-basis: calc(100% / 7);
+    }
+
+    /* -------------FINE ALTRE PAGINE-----------------------*/
+}
